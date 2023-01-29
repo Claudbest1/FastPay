@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
 
-import SignIn ,{SignUp} from "./components/Authentication"
+import SignIn ,{SignUp} from "./components/authentication/Authentication"
 import AboutUs from "./pages/aboutUs/AboutUs"
 import ContactUs from "./pages/contactUs/ContactUs"
 import OurSolution from "./pages/ourSolution/OurSolution"
