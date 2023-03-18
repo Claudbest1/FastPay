@@ -19,7 +19,7 @@ const SignIn = () => {
       <logo>FastPay</logo>
       </Link>       
         <Link to="/SignUp">
-        <button class='top__nav-btn'>Create Free Account</button>
+        <button className='top__nav-btn'>Create Free Account</button>
         </Link>
       </div>  
      
@@ -63,12 +63,12 @@ const handleSubmit=(e) => {
       <logo>FastPay</logo>
       </Link>  
         <Link to="/SignIn">
-        <button class='top__nav-btn'>Login to Account</button>
+        <button className='top__nav-btn'>Login to Account</button>
         </Link>
         
       </div>  
      
-        <div className="form__content">
+        <div className="form__content-SignUp">
           <h2>Create a FastPay Account</h2>
         <form action="" onSubmit={handleSubmit}>
           <label htmlFor="fName" >First name</label>
